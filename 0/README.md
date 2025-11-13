@@ -16,3 +16,17 @@ https://code.visualstudio.com/docs/cpp/config-mingw
 ## 0.7
 manual run: `g++ -std=c++20 <filename>.cpp -o <binaryname>`
 
+## 0.8 - troubleshooting 
+https://www.learncpp.com/cpp-tutorial/a-few-common-cpp-problems/
+
+## 0.9 - compiler build configs
+add -ggdb to the command line for debug builds and -O2 -DNDEBUG for release builds
+
+## 0.10 - compiler extensions
+disable compiler extensions by adding the `-pedantic-errors` flag to the compile command line
+
+## 0.11 - warning and error levels 
+for more warning verbosity: `-Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion`
+
+## 0.12 - language standards
+`-std=c++11`, `-std=c++14`, `-std=c++17`, `-std=c++20`, or `-std=c++23` flags
